@@ -1,0 +1,21 @@
+! exclamacao cria um template html
+
+tab apos o nome lorem para criar um texto
+
+^ climbing 
+
+() grouping
+
+$ numeracao 
+$$ numeracao
+$$$ numeracao
+
+@5*20 = 5 ate 24 
+@-*20 = 20 ate 1
+
+Ambos fazem a mesma coisa so que o primeiro aceita espacoes em branco
+   
+div.container>img[class="thumbnail $"]*5
+
+.container>img.thumbnail_$*5
+
