@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "postgresDs"
+  },
+  "AccessToken": {
+    "dataSource": "postgresDs",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "postgresDs",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "postgresDs",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "postgresDs",
+    "public": false
+  },
+  "Message": {
+    "dataSource": null
+  },
+  "People": {
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Films": {
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Starship": {
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Species": {
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Planet": {
+    "dataSource": "postgresDs",
+    "public": true
+  }
+}

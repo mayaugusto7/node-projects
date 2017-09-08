@@ -1,0 +1,35 @@
+{
+  "name": "Planet",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "height"
+    },
+    "rotationPeriod": {
+      "type": "number",
+      "required": true
+    },
+    "orbitalPeriod": {
+      "type": "number",
+      "required": true
+    },
+    "diameter": {
+      "type": "number",
+      "required": true
+    },
+    "population": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
